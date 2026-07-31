@@ -215,7 +215,7 @@
                 </elementProp>
                 <elementProp name="Authorization" elementType="Header">
                   <stringProp name="Header.name">Authorization</stringProp>
-                  <stringProp name="Header.value">Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzY3Njk0OTUsImV4cCI6MTc3Njc3MTI5NX0.e8LT0KQzqQ-MqBfukmkzmwQjKOIGGHKsUL9Qyg2dtcM</stringProp>
+                  <stringProp name="Header.value">Bearer ${accessToken}</stringProp>
                 </elementProp>
               </collectionProp>
             </HeaderManager>
@@ -255,7 +255,7 @@
                 </elementProp>
                 <elementProp name="Authorization" elementType="Header">
                   <stringProp name="Header.name">Authorization</stringProp>
-                  <stringProp name="Header.value">Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzY3Njk0OTUsImV4cCI6MTc3Njc3MTI5NX0.e8LT0KQzqQ-MqBfukmkzmwQjKOIGGHKsUL9Qyg2dtcM</stringProp>
+                  <stringProp name="Header.value">Bearer ${accessToken}</stringProp>
                 </elementProp>
               </collectionProp>
             </HeaderManager>
@@ -302,7 +302,7 @@
                 </elementProp>
                 <elementProp name="Authorization" elementType="Header">
                   <stringProp name="Header.name">Authorization</stringProp>
-                  <stringProp name="Header.value">Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzY3Njk0OTUsImV4cCI6MTc3Njc3MTI5NX0.e8LT0KQzqQ-MqBfukmkzmwQjKOIGGHKsUL9Qyg2dtcM</stringProp>
+                  <stringProp name="Header.value">Bearer ${accessToken}</stringProp>
                 </elementProp>
               </collectionProp>
             </HeaderManager>

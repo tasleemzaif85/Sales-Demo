@@ -1,0 +1,246 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1785484201172,407,Login,200,OK,Thread Group 1-1,text,true,,2905,267,2,2,https://dummyjson.com/auth/login,402,0,271
+1785484202099,155,Login,200,OK,Thread Group 1-2,text,true,,2909,267,3,3,https://dummyjson.com/auth/login,155,0,30
+1785484202607,121,getUserDetails,401,Unauthorized,Thread Group 1-1,text,false,Test failed: code expected to match /[23]\d\d/,1231,539,3,3,https://dummyjson.com/auth/me,121,0,0
+1785484203098,155,Login,200,OK,Thread Group 1-3,text,true,,2905,267,4,4,https://dummyjson.com/auth/login,155,0,29
+1785484203256,120,getUserDetails,401,Unauthorized,Thread Group 1-2,text,false,Test failed: code expected to match /[23]\d\d/,1235,539,4,4,https://dummyjson.com/auth/me,120,0,0
+1785484203730,125,getUserById,200,OK,Thread Group 1-1,text,true,,2488,539,4,4,https://dummyjson.com/users/1,124,0,0
+1785484204097,156,Login,200,OK,Thread Group 1-4,text,true,,2911,267,5,5,https://dummyjson.com/auth/login,156,0,27
+1785484204255,121,getUserDetails,401,Unauthorized,Thread Group 1-3,text,false,Test failed: code expected to match /[23]\d\d/,1233,539,5,5,https://dummyjson.com/auth/me,120,0,0
+1785484204377,122,getUserById,200,OK,Thread Group 1-2,text,true,,2484,539,5,5,https://dummyjson.com/users/1,121,0,0
+1785484204856,123,getUserByName,200,OK,Thread Group 1-1,text,true,,2527,553,5,5,https://dummyjson.com/users/search?q=emilys,122,0,0
+1785484205097,148,Login,200,OK,Thread Group 1-5,text,true,,2899,267,5,5,https://dummyjson.com/auth/login,147,0,25
+1785484205254,123,getUserDetails,401,Unauthorized,Thread Group 1-4,text,false,Test failed: code expected to match /[23]\d\d/,1229,539,5,5,https://dummyjson.com/auth/me,123,0,0
+1785484205377,121,getUserById,200,OK,Thread Group 1-3,text,true,,2480,539,5,5,https://dummyjson.com/users/1,121,0,0
+1785484205499,122,getUserByName,200,OK,Thread Group 1-2,text,true,,2527,553,5,5,https://dummyjson.com/users/search?q=emilys,121,0,0
+1785484205980,121,Login,200,OK,Thread Group 1-1,text,true,,2913,267,5,5,https://dummyjson.com/auth/login,121,0,0
+1785484206247,121,getUserDetails,401,Unauthorized,Thread Group 1-5,text,false,Test failed: code expected to match /[23]\d\d/,1233,539,5,5,https://dummyjson.com/auth/me,121,0,0
+1785484206378,124,getUserById,200,OK,Thread Group 1-4,text,true,,2484,539,5,5,https://dummyjson.com/users/1,124,0,0
+1785484206501,122,getUserByName,200,OK,Thread Group 1-3,text,true,,2529,553,5,5,https://dummyjson.com/users/search?q=emilys,121,0,0
+1785484206623,120,Login,200,OK,Thread Group 1-2,text,true,,2905,267,5,5,https://dummyjson.com/auth/login,120,0,0
+1785484207104,121,getUserDetails,401,Unauthorized,Thread Group 1-1,text,false,Test failed: code expected to match /[23]\d\d/,1231,539,5,5,https://dummyjson.com/auth/me,121,0,0
+1785484207369,121,getUserById,200,OK,Thread Group 1-5,text,true,,2490,539,5,5,https://dummyjson.com/users/1,120,0,0
+1785484207503,122,getUserByName,200,OK,Thread Group 1-4,text,true,,2523,553,5,5,https://dummyjson.com/users/search?q=emilys,122,0,0
+1785484207624,121,Login,200,OK,Thread Group 1-3,text,true,,2909,267,5,5,https://dummyjson.com/auth/login,121,0,0
+1785484207745,120,getUserDetails,401,Unauthorized,Thread Group 1-2,text,false,Test failed: code expected to match /[23]\d\d/,1227,539,5,5,https://dummyjson.com/auth/me,120,0,0
+1785484208226,122,getUserById,200,OK,Thread Group 1-1,text,true,,2490,539,5,5,https://dummyjson.com/users/1,122,0,0
+1785484208746,2506,getUserDetails,401,Unauthorized,Thread Group 1-3,text,false,Test failed: code expected to match /[23]\d\d/,1224,539,5,5,https://dummyjson.com/auth/me,2506,0,0
+1785484208627,2625,Login,200,OK,Thread Group 1-4,text,true,,2908,267,5,5,https://dummyjson.com/auth/login,2625,0,0
+1785484208491,2762,getUserByName,200,OK,Thread Group 1-5,text,true,,2532,553,5,5,https://dummyjson.com/users/search?q=emilys,2761,0,0
+1785484208866,2387,getUserById,200,OK,Thread Group 1-2,text,true,,2481,539,5,5,https://dummyjson.com/users/1,2387,0,0
+1785484209349,1908,getUserByName,200,OK,Thread Group 1-1,text,true,,2530,553,5,5,https://dummyjson.com/users/search?q=emilys,1908,0,0
+1785484212253,120,Login,200,OK,Thread Group 1-5,text,true,,2905,267,5,5,https://dummyjson.com/auth/login,120,0,0
+1785484212253,122,getUserDetails,401,Unauthorized,Thread Group 1-4,text,false,Test failed: code expected to match /[23]\d\d/,1233,539,5,5,https://dummyjson.com/auth/me,122,0,0
+1785484212253,122,getUserById,200,OK,Thread Group 1-3,text,true,,2490,539,5,5,https://dummyjson.com/users/1,122,0,0
+1785484212254,122,getUserByName,200,OK,Thread Group 1-2,text,true,,2525,553,5,5,https://dummyjson.com/users/search?q=emilys,122,0,0
+1785484212257,121,Login,200,OK,Thread Group 1-1,text,true,,2909,267,5,5,https://dummyjson.com/auth/login,120,0,0
+1785484213375,120,getUserDetails,401,Unauthorized,Thread Group 1-5,text,false,Test failed: code expected to match /[23]\d\d/,1227,539,5,5,https://dummyjson.com/auth/me,120,0,0
+1785484213376,121,Login,200,OK,Thread Group 1-2,text,true,,2913,267,5,5,https://dummyjson.com/auth/login,120,0,0
+1785484213378,120,getUserDetails,401,Unauthorized,Thread Group 1-1,text,false,Test failed: code expected to match /[23]\d\d/,1229,539,5,5,https://dummyjson.com/auth/me,120,0,0
+1785484213376,122,getUserByName,200,OK,Thread Group 1-3,text,true,,2529,553,5,5,https://dummyjson.com/users/search?q=emilys,122,0,0
+1785484213375,124,getUserById,200,OK,Thread Group 1-4,text,true,,2484,539,5,5,https://dummyjson.com/users/1,124,0,0
+1785484214496,120,getUserById,200,OK,Thread Group 1-5,text,true,,2484,539,5,5,https://dummyjson.com/users/1,119,0,0
+1785484214497,119,getUserDetails,401,Unauthorized,Thread Group 1-2,text,false,Test failed: code expected to match /[23]\d\d/,1243,539,5,5,https://dummyjson.com/auth/me,119,0,0
+1785484214499,119,Login,200,OK,Thread Group 1-3,text,true,,2907,267,5,5,https://dummyjson.com/auth/login,119,0,0
+1785484214498,121,getUserById,200,OK,Thread Group 1-1,text,true,,2486,539,5,5,https://dummyjson.com/users/1,120,0,0
+1785484214499,122,getUserByName,200,OK,Thread Group 1-4,text,true,,2523,553,5,5,https://dummyjson.com/users/search?q=emilys,122,0,0
+1785484215616,122,getUserByName,200,OK,Thread Group 1-5,text,true,,2527,553,5,5,https://dummyjson.com/users/search?q=emilys,122,0,0
+1785484215617,121,getUserById,200,OK,Thread Group 1-2,text,true,,2486,539,5,5,https://dummyjson.com/users/1,121,0,0
+1785484215619,120,getUserDetails,401,Unauthorized,Thread Group 1-3,text,false,Test failed: code expected to match /[23]\d\d/,1225,539,5,5,https://dummyjson.com/auth/me,120,0,0
+1785484215619,120,getUserByName,200,OK,Thread Group 1-1,text,true,,2529,553,5,5,https://dummyjson.com/users/search?q=emilys,120,0,0
+1785484215622,121,Login,200,OK,Thread Group 1-4,text,true,,2901,267,5,5,https://dummyjson.com/auth/login,121,0,0
+1785484216738,121,Login,200,OK,Thread Group 1-5,text,true,,2909,267,5,5,https://dummyjson.com/auth/login,121,0,0
+1785484216739,121,Login,200,OK,Thread Group 1-1,text,true,,2903,267,5,5,https://dummyjson.com/auth/login,121,0,0
+1785484216738,122,getUserByName,200,OK,Thread Group 1-2,text,true,,2535,553,5,5,https://dummyjson.com/users/search?q=emilys,122,0,0
+1785484216739,121,getUserById,200,OK,Thread Group 1-3,text,true,,2488,539,5,5,https://dummyjson.com/users/1,121,0,0
+1785484216743,120,getUserDetails,401,Unauthorized,Thread Group 1-4,text,false,Test failed: code expected to match /[23]\d\d/,1231,539,5,5,https://dummyjson.com/auth/me,120,0,0
+1785484217860,121,Login,200,OK,Thread Group 1-2,text,true,,2907,267,5,5,https://dummyjson.com/auth/login,121,0,0
+1785484217860,122,getUserDetails,401,Unauthorized,Thread Group 1-5,text,false,Test failed: code expected to match /[23]\d\d/,1231,539,5,5,https://dummyjson.com/auth/me,122,0,0
+1785484217860,122,getUserDetails,401,Unauthorized,Thread Group 1-1,text,false,Test failed: code expected to match /[23]\d\d/,1229,539,5,5,https://dummyjson.com/auth/me,122,0,0
+1785484217861,122,getUserByName,200,OK,Thread Group 1-3,text,true,,2531,553,5,5,https://dummyjson.com/users/search?q=emilys,121,0,0
+1785484217864,121,getUserById,200,OK,Thread Group 1-4,text,true,,2490,539,5,5,https://dummyjson.com/users/1,121,0,0
+1785484218983,120,getUserDetails,401,Unauthorized,Thread Group 1-2,text,false,Test failed: code expected to match /[23]\d\d/,1231,539,5,5,https://dummyjson.com/auth/me,120,0,0
+1785484218983,121,getUserById,200,OK,Thread Group 1-5,text,true,,2486,539,5,5,https://dummyjson.com/users/1,121,0,0
+1785484218983,122,Login,200,OK,Thread Group 1-3,text,true,,2907,267,5,5,https://dummyjson.com/auth/login,121,0,0
+1785484218983,122,getUserById,200,OK,Thread Group 1-1,text,true,,2484,539,5,5,https://dummyjson.com/users/1,122,0,0
+1785484218985,126,getUserByName,200,OK,Thread Group 1-4,text,true,,2527,553,5,5,https://dummyjson.com/users/search?q=emilys,125,0,0
+1785484220104,122,getUserById,200,OK,Thread Group 1-2,text,true,,2484,539,5,5,https://dummyjson.com/users/1,121,0,0
+1785484220105,121,getUserDetails,401,Unauthorized,Thread Group 1-3,text,false,Test failed: code expected to match /[23]\d\d/,1231,539,5,5,https://dummyjson.com/auth/me,120,0,0
+1785484220105,121,getUserByName,200,OK,Thread Group 1-5,text,true,,2529,553,5,5,https://dummyjson.com/users/search?q=emilys,120,0,0
+1785484220105,122,getUserByName,200,OK,Thread Group 1-1,text,true,,2529,553,5,5,https://dummyjson.com/users/search?q=emilys,121,0,0
+1785484220111,122,Login,200,OK,Thread Group 1-4,text,true,,2905,267,5,5,https://dummyjson.com/auth/login,122,0,0
+1785484221226,122,getUserByName,200,OK,Thread Group 1-2,text,true,,2529,553,5,5,https://dummyjson.com/users/search?q=emilys,122,0,0
+1785484221226,123,getUserById,200,OK,Thread Group 1-3,text,true,,2492,539,5,5,https://dummyjson.com/users/1,123,0,0
+1785484221226,122,Login,200,OK,Thread Group 1-5,text,true,,2909,267,5,5,https://dummyjson.com/auth/login,122,0,0
+1785484221227,121,Login,200,OK,Thread Group 1-1,text,true,,2911,267,5,5,https://dummyjson.com/auth/login,121,0,0
+1785484221234,123,getUserDetails,401,Unauthorized,Thread Group 1-4,text,false,Test failed: code expected to match /[23]\d\d/,1231,539,5,5,https://dummyjson.com/auth/me,123,0,0
+1785484222350,121,getUserDetails,401,Unauthorized,Thread Group 1-5,text,false,Test failed: code expected to match /[23]\d\d/,1231,539,5,5,https://dummyjson.com/auth/me,121,0,0
+1785484222349,122,Login,200,OK,Thread Group 1-2,text,true,,2913,267,5,5,https://dummyjson.com/auth/login,122,0,0
+1785484222351,121,getUserDetails,401,Unauthorized,Thread Group 1-1,text,false,Test failed: code expected to match /[23]\d\d/,1225,539,5,5,https://dummyjson.com/auth/me,121,0,0
+1785484222349,123,getUserByName,200,OK,Thread Group 1-3,text,true,,2525,553,5,5,https://dummyjson.com/users/search?q=emilys,123,0,0
+1785484222357,122,getUserById,200,OK,Thread Group 1-4,text,true,,2482,539,5,5,https://dummyjson.com/users/1,122,0,0
+1785484223472,120,getUserDetails,401,Unauthorized,Thread Group 1-2,text,false,Test failed: code expected to match /[23]\d\d/,1235,539,5,5,https://dummyjson.com/auth/me,119,0,0
+1785484223472,121,getUserById,200,OK,Thread Group 1-5,text,true,,2486,539,5,5,https://dummyjson.com/users/1,120,0,0
+1785484223472,121,getUserById,200,OK,Thread Group 1-1,text,true,,2494,539,5,5,https://dummyjson.com/users/1,121,0,0
+1785484223473,120,Login,200,OK,Thread Group 1-3,text,true,,2905,267,5,5,https://dummyjson.com/auth/login,120,0,0
+1785484223479,122,getUserByName,200,OK,Thread Group 1-4,text,true,,2531,553,5,5,https://dummyjson.com/users/search?q=emilys,121,0,0
+1785484224592,123,getUserById,200,OK,Thread Group 1-2,text,true,,2488,539,5,5,https://dummyjson.com/users/1,122,0,0
+1785484224594,121,getUserDetails,401,Unauthorized,Thread Group 1-3,text,false,Test failed: code expected to match /[23]\d\d/,1231,539,5,5,https://dummyjson.com/auth/me,121,0,0
+1785484224593,122,getUserByName,200,OK,Thread Group 1-5,text,true,,2527,553,5,5,https://dummyjson.com/users/search?q=emilys,121,0,0
+1785484224594,123,getUserByName,200,OK,Thread Group 1-1,text,true,,2525,553,5,5,https://dummyjson.com/users/search?q=emilys,123,0,0
+1785484224601,121,Login,200,OK,Thread Group 1-4,text,true,,2913,267,5,5,https://dummyjson.com/auth/login,121,0,0
+1785484225716,121,Login,200,OK,Thread Group 1-5,text,true,,2915,267,5,5,https://dummyjson.com/auth/login,120,0,0
+1785484225716,122,getUserByName,200,OK,Thread Group 1-2,text,true,,2527,553,5,5,https://dummyjson.com/users/search?q=emilys,122,0,0
+1785484225717,121,Login,200,OK,Thread Group 1-1,text,true,,2909,267,5,5,https://dummyjson.com/auth/login,121,0,0
+1785484225716,123,getUserById,200,OK,Thread Group 1-3,text,true,,2486,539,5,5,https://dummyjson.com/users/1,123,0,0
+1785484225723,121,getUserDetails,401,Unauthorized,Thread Group 1-4,text,false,Test failed: code expected to match /[23]\d\d/,1225,539,5,5,https://dummyjson.com/auth/me,121,0,0
+1785484226838,120,getUserDetails,401,Unauthorized,Thread Group 1-5,text,false,Test failed: code expected to match /[23]\d\d/,1231,539,5,5,https://dummyjson.com/auth/me,120,0,0
+1785484226838,121,Login,200,OK,Thread Group 1-2,text,true,,2901,267,5,5,https://dummyjson.com/auth/login,121,0,0
+1785484226838,121,getUserDetails,401,Unauthorized,Thread Group 1-1,text,false,Test failed: code expected to match /[23]\d\d/,1233,539,5,5,https://dummyjson.com/auth/me,121,0,0
+1785484226840,121,getUserByName,200,OK,Thread Group 1-3,text,true,,2529,553,5,5,https://dummyjson.com/users/search?q=emilys,121,0,0
+1785484226845,120,getUserById,200,OK,Thread Group 1-4,text,true,,2488,539,5,5,https://dummyjson.com/users/1,120,0,0
+1785484227959,120,getUserDetails,401,Unauthorized,Thread Group 1-2,text,false,Test failed: code expected to match /[23]\d\d/,1229,539,5,5,https://dummyjson.com/auth/me,120,0,0
+1785484227959,121,getUserById,200,OK,Thread Group 1-5,text,true,,2496,539,5,5,https://dummyjson.com/users/1,121,0,0
+1785484227960,121,getUserById,200,OK,Thread Group 1-1,text,true,,2486,539,5,5,https://dummyjson.com/users/1,121,0,0
+1785484227961,121,Login,200,OK,Thread Group 1-3,text,true,,2901,267,5,5,https://dummyjson.com/auth/login,121,0,0
+1785484227965,123,getUserByName,200,OK,Thread Group 1-4,text,true,,2527,553,5,5,https://dummyjson.com/users/search?q=emilys,123,0,0
+1785484229080,121,getUserById,200,OK,Thread Group 1-2,text,true,,2486,539,5,5,https://dummyjson.com/users/1,121,0,0
+1785484229081,120,getUserByName,200,OK,Thread Group 1-5,text,true,,2525,553,5,5,https://dummyjson.com/users/search?q=emilys,120,0,0
+1785484229081,121,getUserByName,200,OK,Thread Group 1-1,text,true,,2525,553,5,5,https://dummyjson.com/users/search?q=emilys,121,0,0
+1785484229083,120,getUserDetails,401,Unauthorized,Thread Group 1-3,text,false,Test failed: code expected to match /[23]\d\d/,1229,539,5,5,https://dummyjson.com/auth/me,120,0,0
+1785484229088,121,Login,200,OK,Thread Group 1-4,text,true,,2905,267,5,5,https://dummyjson.com/auth/login,121,0,0
+1785484230202,119,Login,200,OK,Thread Group 1-5,text,true,,2921,267,5,5,https://dummyjson.com/auth/login,119,0,0
+1785484230202,121,Login,200,OK,Thread Group 1-1,text,true,,2913,267,5,5,https://dummyjson.com/auth/login,121,0,0
+1785484230202,122,getUserByName,200,OK,Thread Group 1-2,text,true,,2531,553,5,5,https://dummyjson.com/users/search?q=emilys,122,0,0
+1785484230203,122,getUserById,200,OK,Thread Group 1-3,text,true,,2490,539,5,5,https://dummyjson.com/users/1,122,0,0
+1785484230209,121,getUserDetails,401,Unauthorized,Thread Group 1-4,text,false,Test failed: code expected to match /[23]\d\d/,1233,539,5,5,https://dummyjson.com/auth/me,121,0,0
+1785484231323,121,getUserDetails,401,Unauthorized,Thread Group 1-5,text,false,Test failed: code expected to match /[23]\d\d/,1229,539,5,5,https://dummyjson.com/auth/me,120,0,0
+1785484231324,120,Login,200,OK,Thread Group 1-2,text,true,,2913,267,5,5,https://dummyjson.com/auth/login,120,0,0
+1785484231323,122,getUserDetails,401,Unauthorized,Thread Group 1-1,text,false,Test failed: code expected to match /[23]\d\d/,1227,539,5,5,https://dummyjson.com/auth/me,122,0,0
+1785484231325,121,getUserByName,200,OK,Thread Group 1-3,text,true,,2531,553,5,5,https://dummyjson.com/users/search?q=emilys,121,0,0
+1785484231330,120,getUserById,200,OK,Thread Group 1-4,text,true,,2488,539,5,5,https://dummyjson.com/users/1,120,0,0
+1785484232445,119,getUserDetails,401,Unauthorized,Thread Group 1-2,text,false,Test failed: code expected to match /[23]\d\d/,1229,539,5,5,https://dummyjson.com/auth/me,119,0,0
+1785484232444,121,getUserById,200,OK,Thread Group 1-5,text,true,,2482,539,5,5,https://dummyjson.com/users/1,120,0,0
+1785484232445,121,getUserById,200,OK,Thread Group 1-1,text,true,,2488,539,5,5,https://dummyjson.com/users/1,121,0,0
+1785484232447,119,Login,200,OK,Thread Group 1-3,text,true,,2903,267,5,5,https://dummyjson.com/auth/login,119,0,0
+1785484232450,124,getUserByName,200,OK,Thread Group 1-4,text,true,,2537,553,5,5,https://dummyjson.com/users/search?q=emilys,124,0,0
+1785484233565,121,getUserByName,200,OK,Thread Group 1-5,text,true,,2527,553,5,5,https://dummyjson.com/users/search?q=emilys,121,0,0
+1785484233565,121,getUserById,200,OK,Thread Group 1-2,text,true,,2490,539,5,5,https://dummyjson.com/users/1,121,0,0
+1785484233567,120,getUserDetails,401,Unauthorized,Thread Group 1-3,text,false,Test failed: code expected to match /[23]\d\d/,1225,539,5,5,https://dummyjson.com/auth/me,120,0,0
+1785484233566,122,getUserByName,200,OK,Thread Group 1-1,text,true,,2531,553,5,5,https://dummyjson.com/users/search?q=emilys,122,0,0
+1785484233575,121,Login,200,OK,Thread Group 1-4,text,true,,2909,267,5,5,https://dummyjson.com/auth/login,121,0,0
+1785484234686,121,Login,200,OK,Thread Group 1-5,text,true,,2905,267,5,5,https://dummyjson.com/auth/login,121,0,0
+1785484234689,119,Login,200,OK,Thread Group 1-1,text,true,,2915,267,5,5,https://dummyjson.com/auth/login,119,0,0
+1785484234686,122,getUserByName,200,OK,Thread Group 1-2,text,true,,2537,553,5,5,https://dummyjson.com/users/search?q=emilys,122,0,0
+1785484234687,123,getUserById,200,OK,Thread Group 1-3,text,true,,2494,539,5,5,https://dummyjson.com/users/1,123,0,0
+1785484234696,121,getUserDetails,401,Unauthorized,Thread Group 1-4,text,false,Test failed: code expected to match /[23]\d\d/,1229,539,5,5,https://dummyjson.com/auth/me,121,0,0
+1785484235808,119,getUserDetails,401,Unauthorized,Thread Group 1-5,text,false,Test failed: code expected to match /[23]\d\d/,1233,539,5,5,https://dummyjson.com/auth/me,119,0,0
+1785484235809,119,Login,200,OK,Thread Group 1-2,text,true,,2913,267,5,5,https://dummyjson.com/auth/login,119,0,0
+1785484235809,120,getUserDetails,401,Unauthorized,Thread Group 1-1,text,false,Test failed: code expected to match /[23]\d\d/,1229,539,5,5,https://dummyjson.com/auth/me,120,0,0
+1785484235810,119,getUserByName,200,OK,Thread Group 1-3,text,true,,2529,553,5,5,https://dummyjson.com/users/search?q=emilys,119,0,0
+1785484235817,121,getUserById,200,OK,Thread Group 1-4,text,true,,2488,539,5,5,https://dummyjson.com/users/1,121,0,0
+1785484236928,121,getUserDetails,401,Unauthorized,Thread Group 1-2,text,false,Test failed: code expected to match /[23]\d\d/,1231,539,5,5,https://dummyjson.com/auth/me,121,0,0
+1785484236928,121,getUserById,200,OK,Thread Group 1-5,text,true,,2488,539,5,5,https://dummyjson.com/users/1,121,0,0
+1785484236930,120,Login,200,OK,Thread Group 1-3,text,true,,2907,267,5,5,https://dummyjson.com/auth/login,120,0,0
+1785484236929,121,getUserById,200,OK,Thread Group 1-1,text,true,,2488,539,5,5,https://dummyjson.com/users/1,121,0,0
+1785484236938,121,getUserByName,200,OK,Thread Group 1-4,text,true,,2533,553,5,5,https://dummyjson.com/users/search?q=emilys,121,0,0
+1785484238050,120,getUserByName,200,OK,Thread Group 1-5,text,true,,2529,553,5,5,https://dummyjson.com/users/search?q=emilys,120,0,0
+1785484238049,121,getUserById,200,OK,Thread Group 1-2,text,true,,2494,539,5,5,https://dummyjson.com/users/1,121,0,0
+1785484238050,121,getUserDetails,401,Unauthorized,Thread Group 1-3,text,false,Test failed: code expected to match /[23]\d\d/,1231,539,5,5,https://dummyjson.com/auth/me,121,0,0
+1785484238051,120,getUserByName,200,OK,Thread Group 1-1,text,true,,2531,553,5,5,https://dummyjson.com/users/search?q=emilys,120,0,0
+1785484238060,119,Login,200,OK,Thread Group 1-4,text,true,,2907,267,5,5,https://dummyjson.com/auth/login,119,0,0
+1785484239171,121,Login,200,OK,Thread Group 1-5,text,true,,2905,267,5,5,https://dummyjson.com/auth/login,121,0,0
+1785484239171,122,getUserByName,200,OK,Thread Group 1-2,text,true,,2531,553,5,5,https://dummyjson.com/users/search?q=emilys,122,0,0
+1785484239172,121,Login,200,OK,Thread Group 1-1,text,true,,2903,267,5,5,https://dummyjson.com/auth/login,121,0,0
+1785484239172,121,getUserById,200,OK,Thread Group 1-3,text,true,,2488,539,5,5,https://dummyjson.com/users/1,121,0,0
+1785484239180,121,getUserDetails,401,Unauthorized,Thread Group 1-4,text,false,Test failed: code expected to match /[23]\d\d/,1225,539,5,5,https://dummyjson.com/auth/me,121,0,0
+1785484240293,119,getUserDetails,401,Unauthorized,Thread Group 1-5,text,false,Test failed: code expected to match /[23]\d\d/,1233,539,5,5,https://dummyjson.com/auth/me,119,0,0
+1785484240293,120,Login,200,OK,Thread Group 1-2,text,true,,2909,267,5,5,https://dummyjson.com/auth/login,120,0,0
+1785484240293,121,getUserDetails,401,Unauthorized,Thread Group 1-1,text,false,Test failed: code expected to match /[23]\d\d/,1231,539,5,5,https://dummyjson.com/auth/me,121,0,0
+1785484240294,121,getUserByName,200,OK,Thread Group 1-3,text,true,,2527,553,5,5,https://dummyjson.com/users/search?q=emilys,121,0,0
+1785484240301,122,getUserById,200,OK,Thread Group 1-4,text,true,,2488,539,5,5,https://dummyjson.com/users/1,122,0,0
+1785484241414,120,getUserById,200,OK,Thread Group 1-5,text,true,,2486,539,5,5,https://dummyjson.com/users/1,120,0,0
+1785484241414,120,getUserDetails,401,Unauthorized,Thread Group 1-2,text,false,Test failed: code expected to match /[23]\d\d/,1227,539,5,5,https://dummyjson.com/auth/me,120,0,0
+1785484241415,120,getUserById,200,OK,Thread Group 1-1,text,true,,2486,539,5,5,https://dummyjson.com/users/1,120,0,0
+1785484241417,120,Login,200,OK,Thread Group 1-3,text,true,,2907,267,5,5,https://dummyjson.com/auth/login,120,0,0
+1785484241424,123,getUserByName,200,OK,Thread Group 1-4,text,true,,2531,553,5,5,https://dummyjson.com/users/search?q=emilys,123,0,0
+1785484242534,121,getUserById,200,OK,Thread Group 1-2,text,true,,2486,539,5,5,https://dummyjson.com/users/1,121,0,0
+1785484242534,122,getUserByName,200,OK,Thread Group 1-5,text,true,,2533,553,5,5,https://dummyjson.com/users/search?q=emilys,122,0,0
+1785484242536,120,getUserByName,200,OK,Thread Group 1-1,text,true,,2527,553,5,5,https://dummyjson.com/users/search?q=emilys,120,0,0
+1785484242538,119,getUserDetails,401,Unauthorized,Thread Group 1-3,text,false,Test failed: code expected to match /[23]\d\d/,1233,539,5,5,https://dummyjson.com/auth/me,119,0,0
+1785484242548,122,Login,200,OK,Thread Group 1-4,text,true,,2905,267,5,5,https://dummyjson.com/auth/login,122,0,0
+1785484243656,121,getUserByName,200,OK,Thread Group 1-2,text,true,,2527,553,5,5,https://dummyjson.com/users/search?q=emilys,121,0,0
+1785484243657,120,Login,200,OK,Thread Group 1-1,text,true,,2913,267,5,5,https://dummyjson.com/auth/login,120,0,0
+1785484243657,120,Login,200,OK,Thread Group 1-5,text,true,,2911,267,5,5,https://dummyjson.com/auth/login,120,0,0
+1785484243657,121,getUserById,200,OK,Thread Group 1-3,text,true,,2484,539,5,5,https://dummyjson.com/users/1,121,0,0
+1785484243670,121,getUserDetails,401,Unauthorized,Thread Group 1-4,text,false,Test failed: code expected to match /[23]\d\d/,1227,539,5,5,https://dummyjson.com/auth/me,121,0,0
+1785484244777,121,getUserDetails,401,Unauthorized,Thread Group 1-5,text,false,Test failed: code expected to match /[23]\d\d/,1237,539,5,5,https://dummyjson.com/auth/me,121,0,0
+1785484244777,121,getUserDetails,401,Unauthorized,Thread Group 1-1,text,false,Test failed: code expected to match /[23]\d\d/,1231,539,5,5,https://dummyjson.com/auth/me,121,0,0
+1785484244777,122,Login,200,OK,Thread Group 1-2,text,true,,2901,267,5,5,https://dummyjson.com/auth/login,122,0,0
+1785484244779,121,getUserByName,200,OK,Thread Group 1-3,text,true,,2535,553,5,5,https://dummyjson.com/users/search?q=emilys,121,0,0
+1785484244792,121,getUserById,200,OK,Thread Group 1-4,text,true,,2482,539,5,5,https://dummyjson.com/users/1,121,0,0
+1785484245899,120,getUserDetails,401,Unauthorized,Thread Group 1-2,text,false,Test failed: code expected to match /[23]\d\d/,1231,539,5,5,https://dummyjson.com/auth/me,120,0,0
+1785484245900,120,Login,200,OK,Thread Group 1-3,text,true,,2903,267,5,5,https://dummyjson.com/auth/login,120,0,0
+1785484245899,121,getUserById,200,OK,Thread Group 1-1,text,true,,2488,539,5,5,https://dummyjson.com/users/1,121,0,0
+1785484245899,121,getUserById,200,OK,Thread Group 1-5,text,true,,2492,539,5,5,https://dummyjson.com/users/1,121,0,0
+1785484245913,123,getUserByName,200,OK,Thread Group 1-4,text,true,,2533,553,5,5,https://dummyjson.com/users/search?q=emilys,123,0,0
+1785484247020,121,getUserDetails,401,Unauthorized,Thread Group 1-3,text,false,Test failed: code expected to match /[23]\d\d/,1233,539,5,5,https://dummyjson.com/auth/me,121,0,0
+1785484247020,121,getUserById,200,OK,Thread Group 1-2,text,true,,2488,539,5,5,https://dummyjson.com/users/1,121,0,0
+1785484247021,120,getUserByName,200,OK,Thread Group 1-5,text,true,,2523,553,5,5,https://dummyjson.com/users/search?q=emilys,120,0,0
+1785484247021,121,getUserByName,200,OK,Thread Group 1-1,text,true,,2535,553,5,5,https://dummyjson.com/users/search?q=emilys,121,0,0
+1785484247037,122,Login,200,OK,Thread Group 1-4,text,true,,2909,267,5,5,https://dummyjson.com/auth/login,122,0,0
+1785484248142,120,Login,200,OK,Thread Group 1-5,text,true,,2905,267,5,5,https://dummyjson.com/auth/login,120,0,0
+1785484248142,120,getUserByName,200,OK,Thread Group 1-2,text,true,,2527,553,5,5,https://dummyjson.com/users/search?q=emilys,120,0,0
+1785484248142,121,Login,200,OK,Thread Group 1-1,text,true,,2909,267,5,5,https://dummyjson.com/auth/login,121,0,0
+1785484248142,121,getUserById,200,OK,Thread Group 1-3,text,true,,2494,539,5,5,https://dummyjson.com/users/1,121,0,0
+1785484248160,121,getUserDetails,401,Unauthorized,Thread Group 1-4,text,false,Test failed: code expected to match /[23]\d\d/,1231,539,5,5,https://dummyjson.com/auth/me,121,0,0
+1785484249263,120,getUserDetails,401,Unauthorized,Thread Group 1-5,text,false,Test failed: code expected to match /[23]\d\d/,1233,539,5,5,https://dummyjson.com/auth/me,120,0,0
+1785484249263,121,getUserDetails,401,Unauthorized,Thread Group 1-1,text,false,Test failed: code expected to match /[23]\d\d/,1231,539,5,5,https://dummyjson.com/auth/me,121,0,0
+1785484249263,121,Login,200,OK,Thread Group 1-2,text,true,,2903,267,5,5,https://dummyjson.com/auth/login,121,0,0
+1785484249264,121,getUserByName,200,OK,Thread Group 1-3,text,true,,2525,553,5,5,https://dummyjson.com/users/search?q=emilys,121,0,0
+1785484249281,122,getUserById,200,OK,Thread Group 1-4,text,true,,2488,539,5,5,https://dummyjson.com/users/1,122,0,0
+1785484250384,120,getUserDetails,401,Unauthorized,Thread Group 1-2,text,false,Test failed: code expected to match /[23]\d\d/,1229,539,5,5,https://dummyjson.com/auth/me,119,0,0
+1785484250384,120,getUserById,200,OK,Thread Group 1-5,text,true,,2486,539,5,5,https://dummyjson.com/users/1,120,0,0
+1785484250386,119,Login,200,OK,Thread Group 1-3,text,true,,2907,267,5,5,https://dummyjson.com/auth/login,119,0,0
+1785484250384,122,getUserById,200,OK,Thread Group 1-1,text,true,,2496,539,5,5,https://dummyjson.com/users/1,122,0,0
+1785484250403,121,getUserByName,200,OK,Thread Group 1-4,text,true,,2533,553,5,5,https://dummyjson.com/users/search?q=emilys,121,0,0
+1785484251505,119,getUserDetails,401,Unauthorized,Thread Group 1-3,text,false,Test failed: code expected to match /[23]\d\d/,1233,539,5,5,https://dummyjson.com/auth/me,119,0,0
+1785484251503,121,getUserByName,200,OK,Thread Group 1-5,text,true,,2525,553,5,5,https://dummyjson.com/users/search?q=emilys,121,0,0
+1785484251503,122,getUserById,200,OK,Thread Group 1-2,text,true,,2492,539,5,5,https://dummyjson.com/users/1,122,0,0
+1785484251505,120,getUserByName,200,OK,Thread Group 1-1,text,true,,2531,553,5,5,https://dummyjson.com/users/search?q=emilys,120,0,0
+1785484251524,121,Login,200,OK,Thread Group 1-4,text,true,,2909,267,5,5,https://dummyjson.com/auth/login,121,0,0
+1785484252625,120,Login,200,OK,Thread Group 1-5,text,true,,2905,267,5,5,https://dummyjson.com/auth/login,120,0,0
+1785484252625,121,getUserByName,200,OK,Thread Group 1-2,text,true,,2525,553,5,5,https://dummyjson.com/users/search?q=emilys,121,0,0
+1785484252626,120,Login,200,OK,Thread Group 1-1,text,true,,2903,267,5,5,https://dummyjson.com/auth/login,120,0,0
+1785484252625,122,getUserById,200,OK,Thread Group 1-3,text,true,,2488,539,5,5,https://dummyjson.com/users/1,122,0,0
+1785484252646,121,getUserDetails,401,Unauthorized,Thread Group 1-4,text,false,Test failed: code expected to match /[23]\d\d/,1225,539,5,5,https://dummyjson.com/auth/me,121,0,0
+1785484253746,119,getUserDetails,401,Unauthorized,Thread Group 1-5,text,false,Test failed: code expected to match /[23]\d\d/,1231,539,5,5,https://dummyjson.com/auth/me,119,0,0
+1785484253746,119,Login,200,OK,Thread Group 1-2,text,true,,2915,267,5,5,https://dummyjson.com/auth/login,119,0,0
+1785484253746,121,getUserDetails,401,Unauthorized,Thread Group 1-1,text,false,Test failed: code expected to match /[23]\d\d/,1227,539,5,5,https://dummyjson.com/auth/me,121,0,0
+1785484253747,120,getUserByName,200,OK,Thread Group 1-3,text,true,,2527,553,5,5,https://dummyjson.com/users/search?q=emilys,120,0,0
+1785484253768,122,getUserById,200,OK,Thread Group 1-4,text,true,,2494,539,5,5,https://dummyjson.com/users/1,122,0,0
+1785484254866,120,getUserDetails,401,Unauthorized,Thread Group 1-2,text,false,Test failed: code expected to match /[23]\d\d/,1229,539,5,5,https://dummyjson.com/auth/me,120,0,0
+1785484254866,121,getUserById,200,OK,Thread Group 1-5,text,true,,2490,539,5,5,https://dummyjson.com/users/1,121,0,0
+1785484254867,120,Login,200,OK,Thread Group 1-3,text,true,,2905,267,5,5,https://dummyjson.com/auth/login,120,0,0
+1785484254867,120,getUserById,200,OK,Thread Group 1-1,text,true,,2486,539,5,5,https://dummyjson.com/users/1,120,0,0
+1785484254891,122,getUserByName,200,OK,Thread Group 1-4,text,true,,2527,553,5,5,https://dummyjson.com/users/search?q=emilys,122,0,0
+1785484255988,120,getUserDetails,401,Unauthorized,Thread Group 1-3,text,false,Test failed: code expected to match /[23]\d\d/,1221,539,5,5,https://dummyjson.com/auth/me,120,0,0
+1785484255987,121,getUserById,200,OK,Thread Group 1-2,text,true,,2490,539,5,5,https://dummyjson.com/users/1,121,0,0
+1785484255987,121,getUserByName,200,OK,Thread Group 1-5,text,true,,2529,553,5,5,https://dummyjson.com/users/search?q=emilys,121,0,0
+1785484255988,121,getUserByName,200,OK,Thread Group 1-1,text,true,,2527,553,5,5,https://dummyjson.com/users/search?q=emilys,121,0,0
+1785484256013,122,Login,200,OK,Thread Group 1-4,text,true,,2907,267,5,5,https://dummyjson.com/auth/login,122,0,0
+1785484257110,120,Login,200,OK,Thread Group 1-1,text,true,,2901,267,5,5,https://dummyjson.com/auth/login,120,0,0
+1785484257109,122,Login,200,OK,Thread Group 1-5,text,true,,2909,267,5,5,https://dummyjson.com/auth/login,122,0,0
+1785484257109,122,getUserByName,200,OK,Thread Group 1-2,text,true,,2533,553,5,5,https://dummyjson.com/users/search?q=emilys,122,0,0
+1785484257109,124,getUserById,200,OK,Thread Group 1-3,text,true,,2488,539,5,5,https://dummyjson.com/users/1,124,0,0
+1785484257136,121,getUserDetails,401,Unauthorized,Thread Group 1-4,text,false,Test failed: code expected to match /[23]\d\d/,1233,539,5,5,https://dummyjson.com/auth/me,121,0,0
+1785484258232,119,getUserDetails,401,Unauthorized,Thread Group 1-5,text,false,Test failed: code expected to match /[23]\d\d/,1231,539,5,5,https://dummyjson.com/auth/me,119,0,0
+1785484258232,119,Login,200,OK,Thread Group 1-2,text,true,,2905,267,5,5,https://dummyjson.com/auth/login,119,0,0
+1785484258231,122,getUserDetails,401,Unauthorized,Thread Group 1-1,text,false,Test failed: code expected to match /[23]\d\d/,1229,539,5,5,https://dummyjson.com/auth/me,122,0,0
+1785484258233,121,getUserByName,200,OK,Thread Group 1-3,text,true,,2529,553,5,5,https://dummyjson.com/users/search?q=emilys,121,0,0
+1785484258257,122,getUserById,200,OK,Thread Group 1-4,text,true,,2484,539,5,5,https://dummyjson.com/users/1,122,0,0
+1785484259352,119,getUserDetails,401,Unauthorized,Thread Group 1-2,text,false,Test failed: code expected to match /[23]\d\d/,1229,539,5,5,https://dummyjson.com/auth/me,119,0,0
+1785484259351,121,getUserById,200,OK,Thread Group 1-5,text,true,,2484,539,5,5,https://dummyjson.com/users/1,121,0,0
+1785484259353,120,getUserById,200,OK,Thread Group 1-1,text,true,,2486,539,5,5,https://dummyjson.com/users/1,120,0,0
+1785484259354,120,Login,200,OK,Thread Group 1-3,text,true,,2909,267,5,5,https://dummyjson.com/auth/login,120,0,0
+1785484259379,122,getUserByName,200,OK,Thread Group 1-4,text,true,,2531,553,1,1,https://dummyjson.com/users/search?q=emilys,122,0,0
