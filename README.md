@@ -1,4 +1,4 @@
-# Sales Demo
+# Release 1 Load Test
 
 Performance test project managed by **PerfStudio** — AI-Powered Performance Testing.
 
