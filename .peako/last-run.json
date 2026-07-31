@@ -1,7 +1,7 @@
 {
-  "triggered_at": "2026-07-31T08:33:28.325Z",
-  "script": "Release_2_Load_Test.jmx",
-  "users": "18",
-  "rampup": 10,
-  "duration": -1
+  "triggered_at": "2026-07-31T09:44:07.043Z",
+  "script": "Release_1_Load_Test.jmx",
+  "users": "10",
+  "rampup": 5,
+  "duration": "120"
 }
