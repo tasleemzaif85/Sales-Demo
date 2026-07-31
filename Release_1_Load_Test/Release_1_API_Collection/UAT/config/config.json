@@ -1,0 +1,52 @@
+{
+  "project": {
+    "id": 3,
+    "name": "Release 1 Load Test",
+    "description": "",
+    "uuid": "612213"
+  },
+  "collection": {
+    "id": 4,
+    "name": "Release 1 API Collection",
+    "description": "Release 1 API Collection",
+    "source_type": "postman",
+    "environments": [
+      "UAT"
+    ],
+    "endpoint_count": 4
+  },
+  "environment": "UAT",
+  "rules": [
+    {
+      "id": 6,
+      "metric": "Error Rate",
+      "operator": ">",
+      "unit": "%",
+      "severity": "error",
+      "value": "5"
+    }
+  ],
+  "test_plans": [
+    {
+      "id": 4,
+      "name": "Release 1 Load Test",
+      "engine": "jmeter",
+      "test_type": "load",
+      "vusers": 5,
+      "rampup": 5,
+      "iter_mode": "duration",
+      "loops": 1,
+      "duration": 60,
+      "status": "pending"
+    }
+  ],
+  "config": {
+    "urls": [
+      {
+        "protocol": "https",
+        "url": "dummyjson.com",
+        "port": ""
+      }
+    ]
+  }
+}
