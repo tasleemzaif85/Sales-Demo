@@ -1,0 +1,57 @@
+{
+  "project": {
+    "id": 3,
+    "name": "Release 1 Load Test",
+    "description": "",
+    "uuid": "612213"
+  },
+  "collection": {
+    "id": 5,
+    "name": "Release 2 API Collection",
+    "description": "Release 2 API Collection",
+    "source_type": "postman",
+    "environments": [
+      "QA"
+    ],
+    "endpoint_count": 108
+  },
+  "environment": "QA",
+  "rules": [
+    {
+      "id": 6,
+      "metric": "Error Rate",
+      "operator": ">",
+      "unit": "%",
+      "severity": "error",
+      "value": "5"
+    }
+  ],
+  "test_plans": [
+    {
+      "id": 5,
+      "name": "Release 2 Load Test",
+      "engine": "jmeter",
+      "test_type": "load",
+      "vusers": 10,
+      "rampup": 10,
+      "iter_mode": "loops",
+      "loops": 2,
+      "duration": 300,
+      "status": "pending"
+    }
+  ],
+  "config": {
+    "urls": [
+      {
+        "protocol": "https",
+        "url": "dummyjson.com",
+        "port": ""
+      },
+      {
+        "protocol": "https",
+        "url": "dummyjson.com",
+        "port": "443"
+      }
+    ]
+  }
+}
